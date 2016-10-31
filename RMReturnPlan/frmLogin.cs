@@ -26,7 +26,7 @@ namespace RMReturnPlan
             RMReturnPlanUI mainForm = new RMReturnPlanUI();
 
             AccpacCOMAPI.AccpacSession session = new AccpacCOMAPI.AccpacSession();
-            //// this.Cursor = Cursors.WaitCursor;
+            ////// this.Cursor = Cursors.WaitCursor;
             session.Init("", "IC60A", "IC2000", "60A");
             try
             {
